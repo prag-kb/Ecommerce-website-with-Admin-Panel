@@ -15,3 +15,17 @@ body {
   display: flex;
   flex-flow: row no-wrap;
 }
+.square{
+  background-color: black;
+  color: white;
+  border: 1px soild white;
+  padding: 0;
+  font-size: 84px;
+  text-align: center;
+  width: 100px; 
+  height: 100px;
+}
+.square:focus{
+  outline: none;
+  background-color: #222;
+}
